@@ -15,9 +15,9 @@ function createWindow(): void {
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false
-    },
+    }
 
-    frame: false
+    // frame: false
     // titleBarStyle: 'hidden'
   })
   mainWindow.setMicaEffect()
